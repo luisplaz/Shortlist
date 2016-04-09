@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ShortList</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		body{
+			padding-top: 70px;
+		}
+	</style>
+
+</head>
+<body>
+	<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">ShortList</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="http://www.tutorialrepublic.com" target="_blank">Home</a></li>
+					<li><a href="#" target="_blank">About</a></li>
+					<li><a href="#" target="_blank">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="h2">Interview Questionnaire</h1>
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="inputQuestion" class="control-label col-xs-2">Question</label>
+					<div class="col-xs-10">
+						<input type="textarea" class="form-control" id="inputQ" placeholder="Question" value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputAnswer" class="control-label col-xs-2">Answer</label>
+					<div class="col-xs-10">
+						<input type="textarea" class="form-control" id="inputP" placeholder="Write your answer">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-xs-offset-2 col-xs-10">
+						<button type="submit" class="btn btn-primary" id="start_button">Start</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<footer>
+					<p>&copy; Copyright 2016 ShortList</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+</body>
+</html>                                		
